@@ -1,0 +1,19 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"gulp watch\" \"nodemon ./dist/main.js\" ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "nodemon": "^1.11.0",
+    "typescript": "^2.3.2"
+  }
+}
